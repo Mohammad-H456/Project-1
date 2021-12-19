@@ -1,2 +1,9 @@
 ssh-keygen
 cat ~/.ssh/id_rsa.pub 
+ssh admin-username@VM-public-IP
+sudo -l
+apt install docker.io
+systemctl status docker
+ docker pull cyberxsecurity/ansible
+ docker run -ti cyberxsecurity/ansible:latest bash
+ exit
