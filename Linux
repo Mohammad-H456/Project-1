@@ -1,1 +1,9 @@
-
+sudo bash /home/instructor/Documents/setup_scripts/instructor/landmarks_review.sh
+cd /home/sysadmin/
+mkdir research
+ls /var/log/auth.log
+ls /home/sysadmin/
+ls /bin/cat
+ls /bin/ps
+ls /tmp
+ls /home
