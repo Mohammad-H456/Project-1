@@ -7,3 +7,12 @@ systemctl status docker
  docker pull cyberxsecurity/ansible
  docker run -ti cyberxsecurity/ansible:latest bash
  exit
+sudo docker container list -a
+docker run -it cyberxsecurity/ansible /bin/bash
+ssh-keygen
+ls .ssh/
+cat .ssh/id_rsa.pub
+exit
+nano /etc/ansible/hosts
+nano /etc/ansible/ansible.cfg
+ansible_python_interpreter=/usr/bin/python3
