@@ -1,1 +1,42 @@
 
+Create a research directory in your home folder.
+
+Run cd /home/sysadmin/.
+Run mkdir research.
+
+
+
+Access the /var/log directory; check to see if the auth.log exists, as you need this to check for suspicious logins.
+
+Run ls /var/log/auth.log
+
+This will confirm the file exists.
+
+
+
+Access your personal home directory; check to see if you have a Desktop and Downloads directory.
+
+Run ls /home/sysadmin/.
+The Desktop and Downloads directories will appear.
+
+
+
+Access the binary directory; check to see if you can find cat and ps binary files.
+
+Run ls /bin/cat.
+Run ls /bin/ps.
+This will confirm the files exist.
+
+
+
+Check to see if there are any scripts in temporary directories, as those may be suspicious.
+
+Run ls /tmp.
+This directory contains a shell script called str.sh. This file is out of place, and should be noted for later analysis.
+
+
+
+Check that the only users with accounts in the /home directory are adam, billy, instructor, jane, john max, sally, student, sysadmin and vagrant. There should not be additional directories. Note any other users that you see.
+
+Run ls /home.
+This revealed home folders named jack and http.
